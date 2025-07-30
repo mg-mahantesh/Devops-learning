@@ -1,0 +1,94 @@
+----- Wed Jul 30 12:35:29 +0530 2025 -----
+Detected OutOfMemory. Restarting myapp service...
+Unknown error: Jul 21 16:37:49 Mahi kernel: [    0.511897] RAS: Correctable Errors collector initialized.
+Generic ERROR found. Logging only.
+Unknown error: Jul 21 16:37:49 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Unknown error: Jul 21 16:37:49 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Generic ERROR found. Logging only.
+Generic ERROR found. Logging only.
+Unknown error: Jul 21 16:37:49 Mahi snapd[195]: helpers.go:160: error trying to compare the snap system key: system-key missing on disk
+Unknown error: Jul 21 16:38:53 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Unknown error: Jul 21 16:38:53 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Generic ERROR found. Logging only.
+Generic ERROR found. Logging only.
+Unknown error: Jul 21 16:39:07 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Unknown error: Jul 21 16:39:07 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Generic ERROR found. Logging only.
+Generic ERROR found. Logging only.
+Generic ERROR found. Logging only.
+Generic ERROR found. Logging only.
+Generic ERROR found. Logging only.
+Generic ERROR found. Logging only.
+Generic ERROR found. Logging only.
+Unknown error: Jul 21 16:48:11 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Unknown error: Jul 21 16:48:11 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Generic ERROR found. Logging only.
+Unknown error: Jul 23 23:17:11 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Unknown error: Jul 23 23:17:11 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Unknown error: Jul 23 23:17:11 Mahi kernel: [    0.740906] RAS: Correctable Errors collector initialized.
+Generic ERROR found. Logging only.
+Generic ERROR found. Logging only.
+Generic ERROR found. Logging only.
+Unknown error: Jul 24 10:04:17 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Unknown error: Jul 24 10:04:17 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Unknown error: Jul 24 10:04:17 Mahi kernel: [    0.590081] RAS: Correctable Errors collector initialized.
+Generic ERROR found. Logging only.
+Generic ERROR found. Logging only.
+Generic ERROR found. Logging only.
+Generic ERROR found. Logging only.
+Generic ERROR found. Logging only.
+Generic ERROR found. Logging only.
+Generic ERROR found. Logging only.
+Generic ERROR found. Logging only.
+Generic ERROR found. Logging only.
+Unknown error: Jul 24 23:30:27 Mahi kernel: [48346.935638] weston[235]: segfault at a0 ip 00007fe8f90f6598 sp 00007fffe6b9ab90 error 4 in libweston-9.so.0.0.0[7fe8f90df000+22000] likely on CPU 5 (core 2, socket 0)
+Unknown error: Jul 25 18:41:38 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Unknown error: Jul 25 18:41:38 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Unknown error: Jul 25 18:41:38 Mahi kernel: [    0.438785] RAS: Correctable Errors collector initialized.
+Generic ERROR found. Logging only.
+Generic ERROR found. Logging only.
+Generic ERROR found. Logging only.
+Generic ERROR found. Logging only.
+Unknown error: Jul 26 11:23:14 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Unknown error: Jul 26 11:23:14 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Unknown error: Jul 26 11:23:14 Mahi kernel: [    0.662117] RAS: Correctable Errors collector initialized.
+Generic ERROR found. Logging only.
+Generic ERROR found. Logging only.
+Generic ERROR found. Logging only.
+Generic ERROR found. Logging only.
+Unknown error: Jul 26 22:30:46 Mahi kernel: [40044.171796] weston[239]: segfault at a0 ip 00007a0ec496e598 sp 00007fffe6c9bdf0 error 4 in libweston-9.so.0.0.0[7a0ec4957000+22000] likely on CPU 2 (core 1, socket 0)
+Unknown error: Jul 28 12:10:03 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Unknown error: Jul 28 12:10:03 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Unknown error: Jul 28 12:10:03 Mahi kernel: [    0.994200] RAS: Correctable Errors collector initialized.
+Generic ERROR found. Logging only.
+Generic ERROR found. Logging only.
+Generic ERROR found. Logging only.
+Unknown error: Jul 28 14:22:40 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Unknown error: Jul 28 14:22:40 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Unknown error: Jul 28 14:22:40 Mahi kernel: [    0.919528] RAS: Correctable Errors collector initialized.
+Generic ERROR found. Logging only.
+Generic ERROR found. Logging only.
+Generic ERROR found. Logging only.
+Unknown error: Jul 28 14:23:34 Mahi kernel: [   60.643976] weston[243]: segfault at a0 ip 00007d3412768598 sp 00007ffff1b45d90 error 4 in libweston-9.so.0.0.0[7d3412751000+22000] likely on CPU 2 (core 1, socket 0)
+Unknown error: Jul 28 14:29:10 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Unknown error: Jul 28 14:29:10 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Unknown error: Jul 28 14:29:10 Mahi kernel: [    0.431949] RAS: Correctable Errors collector initialized.
+Generic ERROR found. Logging only.
+Generic ERROR found. Logging only.
+Generic ERROR found. Logging only.
+Generic ERROR found. Logging only.
+Unknown error: Jul 30 10:10:12 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Unknown error: Jul 30 10:10:12 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Unknown error: Jul 30 10:10:12 Mahi kernel: [    0.971045] RAS: Correctable Errors collector initialized.
+Generic ERROR found. Logging only.
+Generic ERROR found. Logging only.
+Generic ERROR found. Logging only.
+Detected OutOfMemory. Restarting myapp service...
+----- Wed Jul 30 12:36:03 +0530 2025 -----
+----- Wed Jul 30 12:37:42 +0530 2025 -----
+Detected OutOfMemory. Restarting myapp service...
+----- Wed Jul 30 12:43:14 +0530 2025 -----
+----- Wed Jul 30 12:43:23 +0530 2025 -----
+----- Wed Jul 30 12:44:32 +0530 2025 -----
+----- Wed Jul 30 12:45:43 +0530 2025 -----
+Detected OutOfMemory. Restarting myapp service...

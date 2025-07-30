@@ -1,0 +1,94 @@
+----- Wed Jul 30 12:34:42 +0530 2025 -----
+Jul 30 12:00:00 test OutOfMemory error occurred in app
+Jul 21 16:37:49 Mahi kernel: [    0.511897] RAS: Correctable Errors collector initialized.
+Jul 21 16:37:49 Mahi kernel: [    7.779641] WSL (214) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jul 21 16:37:49 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Jul 21 16:37:49 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Jul 21 16:37:49 Mahi networkd-dispatcher[192]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+Jul 21 16:37:49 Mahi networkd-dispatcher[192]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='eth0', type='ether', operational='n/a', administrative='unmanaged'): n/a
+Jul 21 16:37:49 Mahi snapd[195]: helpers.go:160: error trying to compare the snap system key: system-key missing on disk
+Jul 21 16:38:53 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Jul 21 16:38:53 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Jul 21 16:38:54 Mahi networkd-dispatcher[188]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+Jul 21 16:38:54 Mahi networkd-dispatcher[188]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='eth0', type='ether', operational='n/a', administrative='unmanaged'): n/a
+Jul 21 16:39:07 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Jul 21 16:39:07 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Jul 21 16:39:07 Mahi networkd-dispatcher[188]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+Jul 21 16:39:07 Mahi networkd-dispatcher[188]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='eth0', type='ether', operational='n/a', administrative='unmanaged'): n/a
+Jul 21 16:43:59 Mahi python3[421]: ["2025-07-21T16:43:59.499", "ERROR", "ubuntupro.http", "_readurl_urllib", 171, "[Errno -3] Temporary failure in name resolution", {"exc_info": "Traceback (most recent call last):\n  File \"/usr/lib/python3.10/urllib/request.py\", line 1348, in do_open\n    h.request(req.get_method(), req.selector, req.data, headers,\n  File \"/usr/lib/python3.10/http/client.py\", line 1283, in request\n    self._send_request(method, url, body, headers, encode_chunked)\n  File \"/usr/lib/python3.10/http/client.py\", line 1329, in _send_request\n    self.endheaders(body, encode_chunked=encode_chunked)\n  File \"/usr/lib/python3.10/http/client.py\", line 1278, in endheaders\n    self._send_output(message_body, encode_chunked=encode_chunked)\n  File \"/usr/lib/python3.10/http/client.py\", line 1038, in _send_output\n    self.send(msg)\n  File \"/usr/lib/python3.10/http/client.py\", line 976, in send\n    self.connect()\n  File \"/usr/lib/python3.10/http/client.py\", line 1448, in connect\n    super().connect()\n  File \"/usr/lib/python3.10/http/client.py\", line 942, in connect\n    self.sock = self._create_connection(\n  File \"/usr/lib/python3.10/socket.py\", line 824, in create_connection\n    for res in getaddrinfo(host, port, 0, SOCK_STREAM):\n  File \"/usr/lib/python3.10/socket.py\", line 955, in getaddrinfo\n    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):\nsocket.gaierror: [Errno -3] Temporary failure in name resolution\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/usr/lib/python3/dist-packages/uaclient/http/__init__.py\", line 167, in _readurl_urllib\n    resp = request.urlopen(req, timeout=timeout)  # nosec B310\n  File \"/usr/lib/python3.10/urllib/request.py\", line 216, in urlopen\n    return opener.open(url, data, timeout)\n  File \"/usr/lib/python3.10/urllib/request.py\", line 519, in open\n    response = self._open(req, data)\n  File \"/usr/lib/python3.10/urllib/request.py\", line 536, in _open\n    result = self._call_chain(self.handle_open, protocol, protocol +\n  File \"/usr/lib/python3.10/urllib/request.py\", line 496, in _call_chain\n    result = func(*args)\n  File \"/usr/lib/python3.10/urllib/request.py\", line 1391, in https_open\n    return self.do_open(http.client.HTTPSConnection, req,\n  File \"/usr/lib/python3.10/urllib/request.py\", line 1351, in do_open\n    raise URLError(err)\nurllib.error.URLError: <urlopen error [Errno -3] Temporary failure in name resolution>"}]
+Jul 21 16:43:59 Mahi python3[421]: ["2025-07-21T16:43:59.516", "ERROR", "ubuntupro.lib.esm_cache", "main", 17, "Error updating the cache: Failed to connect to https://contracts.canonical.com/v1/resources?architecture=amd64&kernel=6.6.87.2-microsoft-standard-WSL2&series=jammy&virt=wsl\n[Errno -3] Temporary failure in name resolution\n", {}]
+Jul 21 16:44:59 Mahi kernel: [  444.386112] WSL (214) ERROR: CheckConnection: getaddrinfo() failed: -3
+Jul 21 16:46:05 Mahi kernel: [  449.393927] WSL (214) ERROR: CheckConnection: getaddrinfo() failed: -3
+Jul 21 16:48:09 Mahi kernel: [  515.357384] WSL (214) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jul 21 16:48:11 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Jul 21 16:48:11 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Jul 21 20:02:39 Mahi kernel: [12260.559939] WSL (214) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jul 23 23:17:11 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Jul 23 23:17:11 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Jul 23 23:17:11 Mahi kernel: [    0.740906] RAS: Correctable Errors collector initialized.
+Jul 23 23:17:12 Mahi networkd-dispatcher[194]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+Jul 23 23:17:12 Mahi networkd-dispatcher[194]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='eth0', type='ether', operational='n/a', administrative='unmanaged'): n/a
+Jul 23 23:17:54 Mahi kernel: [    7.879636] WSL (215) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jul 24 10:04:17 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Jul 24 10:04:17 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Jul 24 10:04:17 Mahi kernel: [    0.590081] RAS: Correctable Errors collector initialized.
+Jul 24 10:04:17 Mahi kernel: [    7.704382] WSL (214) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jul 24 10:04:18 Mahi networkd-dispatcher[190]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+Jul 24 10:04:18 Mahi networkd-dispatcher[190]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='eth0', type='ether', operational='n/a', administrative='unmanaged'): n/a
+Jul 24 20:21:49 Mahi kernel: [36134.461248] WSL (214) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jul 24 20:37:22 Mahi kernel: [37062.583453] WSL (214) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jul 24 20:52:56 Mahi kernel: [37991.940336] WSL (214) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jul 24 21:08:29 Mahi kernel: [38920.064592] WSL (214) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jul 24 21:24:03 Mahi kernel: [39847.481057] WSL (214) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jul 24 23:30:27 Mahi kernel: [40775.904518] WSL (214) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jul 24 23:30:27 Mahi kernel: [48346.935638] weston[235]: segfault at a0 ip 00007fe8f90f6598 sp 00007fffe6b9ab90 error 4 in libweston-9.so.0.0.0[7fe8f90df000+22000] likely on CPU 5 (core 2, socket 0)
+Jul 25 18:41:38 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Jul 25 18:41:38 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Jul 25 18:41:38 Mahi kernel: [    0.438785] RAS: Correctable Errors collector initialized.
+Jul 25 18:41:39 Mahi networkd-dispatcher[190]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+Jul 25 18:41:39 Mahi networkd-dispatcher[190]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='eth0', type='ether', operational='n/a', administrative='unmanaged'): n/a
+Jul 25 18:42:22 Mahi kernel: [    6.985843] WSL (210) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jul 25 23:55:55 Mahi kernel: [ 4490.389819] WSL (210) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jul 26 11:23:14 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Jul 26 11:23:14 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Jul 26 11:23:14 Mahi kernel: [    0.662117] RAS: Correctable Errors collector initialized.
+Jul 26 11:23:15 Mahi networkd-dispatcher[194]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+Jul 26 11:23:15 Mahi networkd-dispatcher[194]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='eth0', type='ether', operational='n/a', administrative='unmanaged'): n/a
+Jul 26 11:23:59 Mahi kernel: [    6.335078] WSL (217) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jul 26 22:30:46 Mahi kernel: [30546.830271] WSL (217) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jul 26 22:30:46 Mahi kernel: [40044.171796] weston[239]: segfault at a0 ip 00007a0ec496e598 sp 00007fffe6c9bdf0 error 4 in libweston-9.so.0.0.0[7a0ec4957000+22000] likely on CPU 2 (core 1, socket 0)
+Jul 28 12:10:03 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Jul 28 12:10:03 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Jul 28 12:10:03 Mahi kernel: [    0.994200] RAS: Correctable Errors collector initialized.
+Jul 28 12:10:04 Mahi networkd-dispatcher[201]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+Jul 28 12:10:04 Mahi networkd-dispatcher[201]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='eth0', type='ether', operational='n/a', administrative='unmanaged'): n/a
+Jul 28 12:10:04 Mahi kernel: [    8.273067] WSL (215) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jul 28 14:22:40 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Jul 28 14:22:40 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Jul 28 14:22:40 Mahi kernel: [    0.919528] RAS: Correctable Errors collector initialized.
+Jul 28 14:22:38 Mahi networkd-dispatcher[188]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+Jul 28 14:22:38 Mahi networkd-dispatcher[188]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='eth0', type='ether', operational='n/a', administrative='unmanaged'): n/a
+Jul 28 14:23:22 Mahi kernel: [    6.950681] WSL (218) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jul 28 14:23:34 Mahi kernel: [   60.643976] weston[243]: segfault at a0 ip 00007d3412768598 sp 00007ffff1b45d90 error 4 in libweston-9.so.0.0.0[7d3412751000+22000] likely on CPU 2 (core 1, socket 0)
+Jul 28 14:29:10 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Jul 28 14:29:10 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Jul 28 14:29:10 Mahi kernel: [    0.431949] RAS: Correctable Errors collector initialized.
+Jul 28 14:29:10 Mahi networkd-dispatcher[198]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+Jul 28 14:29:10 Mahi networkd-dispatcher[198]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='eth0', type='ether', operational='n/a', administrative='unmanaged'): n/a
+Jul 28 14:29:53 Mahi kernel: [    6.744379] WSL (214) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jul 28 22:52:02 Mahi kernel: [17595.778455] WSL (214) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jul 30 10:10:12 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Jul 30 10:10:12 Mahi systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Jul 30 10:10:12 Mahi kernel: [    0.971045] RAS: Correctable Errors collector initialized.
+Jul 30 10:10:12 Mahi networkd-dispatcher[202]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+Jul 30 10:10:12 Mahi networkd-dispatcher[202]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='eth0', type='ether', operational='n/a', administrative='unmanaged'): n/a
+Jul 30 10:10:13 Mahi kernel: [    7.344577] WSL (216) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jul 30 12:00:00 test OutOfMemory error occurred in app
+----- Wed Jul 30 12:36:03 +0530 2025 -----
+----- Wed Jul 30 12:37:42 +0530 2025 -----
+Jul 30 14:22:09 kernel: OutOfMemory: Kill process 1234 (myapp) score 999
+----- Wed Jul 30 12:43:14 +0530 2025 -----
+----- Wed Jul 30 12:43:26 +0530 2025 -----
+----- Wed Jul 30 12:44:25 +0530 2025 -----
+----- Wed Jul 30 12:45:43 +0530 2025 -----
+Jul 30 14:30:00 test-host kernel: OutOfMemory: Kill process 1234 (test-app) score 999
