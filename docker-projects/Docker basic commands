@@ -1,0 +1,90 @@
+
+🐳 Docker Cheat Sheet
+======================
+
+📌 Docker CLI Basics
+---------------------
+docker --version              # Check Docker version
+docker info                   # Show system-wide info
+docker help                   # List Docker commands
+
+📦 Images & Containers
+------------------------
+docker pull nginx                      # Download image from Docker Hub
+docker images                          # List local images
+docker rmi <image_id>                  # Remove image
+docker run nginx                       # Run container
+docker run -d nginx                    # Run in background (detached mode)
+docker run -it ubuntu bash             # Interactive shell
+docker ps                              # List running containers
+docker ps -a                           # List all containers
+docker stop <container_id>             # Stop container
+docker start <container_id>            # Start stopped container
+docker restart <container_id>          # Restart container
+docker rm <container_id>               # Remove container
+
+🛠️ Dockerfile Commands
+------------------------
+FROM ubuntu                            # Base image
+RUN apt update && apt install -y nginx
+COPY . /app                            # Copy files into image
+WORKDIR /app                           # Set working dir
+EXPOSE 80                              # Document exposed port
+CMD ["nginx", "-g", "daemon off;"]     # Default command
+
+docker build -t myapp .                # Build image from Dockerfile
+docker run -p 8080:80 myapp            # Run with port mapping
+
+🌐 Networking
+--------------
+docker network ls                      # List networks
+docker network create my-net           # Create custom network
+docker run --network my-net nginx      # Attach to network
+docker run -p 8080:80 nginx            # Map container 80 to host 8080
+
+📂 Volumes (Persistence)
+--------------------------
+docker volume create mydata
+docker volume ls
+docker run -v mydata:/data ubuntu
+docker run -v $(pwd):/app nginx        # Bind mount current dir
+
+🧩 Docker Compose
+-------------------
+# docker-compose.yml
+version: "3"
+services:
+  web:
+    image: nginx
+    ports:
+      - "8080:80"
+  db:
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+
+docker-compose up -d
+docker-compose down
+docker-compose ps
+docker-compose logs
+
+🛠️ Useful Commands
+---------------------
+docker exec -it <container> bash       # Shell inside container
+docker logs <container>                # Show logs
+docker cp file.txt <container>:/app    # Copy to container
+docker inspect <container/image>       # Inspect details
+
+🧹 Cleanup
+------------
+docker system prune                    # Remove all unused containers, networks, images
+docker container prune                 # Remove stopped containers
+docker image prune                     # Remove dangling images
+docker volume prune                    # Remove unused volumes
+
+🔐 Docker Hub Login & Push
+----------------------------
+docker login
+docker tag myapp username/myapp:v1
+docker push username/myapp:v1
+docker pull username/myapp:v1
